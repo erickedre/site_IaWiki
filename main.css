@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #f2f2f2;
+}
+
+header {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff8f8;
+}
+
+body {
+    padding: 10px;
+    background-color: #03021d;
+    color: #ffffff;
+}
+
+header nav li{
+    display: flex;
+    margin-left: 16px;
+    font-size: 20px;
+    text-align:center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+header.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body section .ia-front {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.ia-front img {
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+}
+
+.imagensLink img {
+    width: 50px;
+}
+
+.linkList li {
+    display: inline-table;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact social-links img {
+    display: flex;
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.contact img {
+    width: 20px;
+    margin: 5px;
+}
+.contact {
+        padding: 10px;
+        background-color: #000000;
+        color: #fff8f8;
+    }
+.contact-methods,
+.linkList{
+    text-align-last: center;
+}
+.ia-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-ia{
+    text-align-last: center;
+    margin: 20px;
+    padding: 30px;
+}
